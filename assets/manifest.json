@@ -1,0 +1,18 @@
+{
+  "name": "Widget",
+  "author": {
+    "name": "Lukasz Gonciarz",
+    "email": "vanluke@op.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "zendesk": { "ticket_sidebar": "assets/index.html" },
+    "support": {
+      "ticket_sidebar":  "assets/index.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

@@ -1,0 +1,18 @@
+<!-- {{htmlWebpackPlugin.options.warning}} -->
+<doctype! html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{htmlWebpackPlugin.options.title}}</title>
+    {{#each htmlWebpackPlugin.options.vendorCss}}
+      <link href="{{this}}" rel="stylesheet">
+    {{/each}}
+  </head>
+  <body>
+    <div class="container" id="container"></div>
+    {{#each htmlWebpackPlugin.options.vendorJs}}
+      <script src="{{this}}"></script>
+    {{/each}}
+    <script src="{{htmlWebpackPlugin.options.bundle}}"></script>
+  </body>
+</html>
